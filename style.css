@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&family=Source+Serif+Pro:ital,wght@0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* #FF9063 */
+/* font-family: 'Signika Negative', sans-serif;
+font-family: 'Source Serif Pro', serif; */
+.firstletter {
+	color: brown;
+}
+.first::first-letter {
+	font-family: "Roboto", sans-serif;
+	color: brown;
+	font-size: 200%;
+}
+/* .bg-competence{
+	background: url("Bank/bg4.jpg");
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	header{
+		height:100vh;
+	}
+} */
+/* #########  header ######### */
+
+header {
+	background-position: center;
+	background-image: linear-gradient(#0202ff49, #ff8f6367), url("Bank/bg2.jpg");
+}
+.navbar-nav {
+	margin-top: 10px;
+}
+.navbar-collapse {
+	display: flex;
+	justify-content: center;
+}
+.nav-link {
+	color: rgb(70, 5, 107) !important;
+	font-size: 1.4rem;
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+.nav-item {
+	padding: 0 2rem;
+}
+.presentation {
+	margin-top: 5rem !important;
+}
+.profile {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+h1 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 10px !important;
+	font-weight: bold !important ;
+}
+
+.job {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: lighter !important ;
+}
+.lowerinfos {
+	margin-top: 15rem !important ;
+}
+h2 {
+	font-family: "Signika Negative", sans-serif;
+}
+h3 {
+	font-family: "Signika Negative", sans-serif;
+	color: rgb(61, 59, 59);
+}
+.objectif {
+	color: #6841f5;
+	font-size: 2rem;
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+
+/* #########  competence ######### */
+.sous-titre {
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	font-family: "Signika Negative", sans-serif;
+	margin: 60px 0;
+	font-weight: bold;
+}
+.card {
+	padding: 25px 15px 0 15px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+		0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	transition: box-shadow 0.25s;
+}
+.card a {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between !important;
+}
+.card:hover {
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.card-title {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.card-img-top {
+	width: 50% !important;
+}
+
+.card-text {
+	font-family: "Signika Negative", sans-serif;
+	color: #868585;
+}
+a {
+	text-decoration: none !important;
+}
+div {
+	box-sizing: border-box;
+}
+/* #########  contact ######### */
+button {
+	font-size: 1em;
+	font-weight: bold;
+	background-color: #fc4902;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	outline: none;
+}
+.trigger::before {
+	content: "Contact";
+}
+.page-about {
+	position: relative;
+	overflow: hidden;
+	width: 90%;
+	min-width: 600px;
+	max-width: 1000px;
+	margin: 40px auto;
+	background-color: white;
+	box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.left-side {
+	position: absolute;
+	width: 50%;
+	padding: 40px;
+}
+.left-side h3 {
+	color: #f87902;
+}
+.left-side p {
+	color: rgb(148, 147, 147);
+	font-size: 20px;
+	font-family: "Signika Negative", sans-serif !important;
+}
+.profile-photo {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	background-image: url("/Bank/profile.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.right-side-info {
+	position: relative;
+	padding: 40px;
+	width: 50%;
+	margin-left: 100%;
+	color: white;
+	background-color: rgb(214, 212, 212);
+}
+.name-contact {
+	font-size: 3rem;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: bold;
+}
+.social {
+	color: brown;
+	font-size: 2rem;
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+.social p {
+	margin-bottom: 0 !important;
+}
+.social-info {
+	margin-bottom: 22px;
+	font-size: 1.3rem;
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.show-info .left-side {
+	padding-top: 220px;
+}
+.show-info button {
+	background-color: brown;
+}
+.show-info button::before {
+	content: "Retour";
+}
+.show-info .right-side-info {
+	margin-left: 50%;
+}
+.left-side,
+.right-side-info,
+button {
+	transition: all 0.5s ease-in-out;
+}
+
+.profile-photo {
+	animation: right_frame 1s ease-in-out 1 forwards;
+}
+.show-info .profile-photo {
+	animation: left_frame 1s ease-in-out 1 forwards;
+}
+@keyframes right_frame {
+	0% {
+		top: 40px;
+		left: 40px;
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;
+	}
+	50% {
+		top: 40px;
+		left: 50%;
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;
+	}
+	100% {
+		top: 0;
+		left: 50%;
+		width: 50%;
+		height: 100%;
+		border-radius: 0;
+	}
+}
+@keyframes left_frame {
+	0% {
+		top: 0;
+		left: 50%;
+		width: 50%;
+		height: 100%;
+		border-radius: 0;
+	}
+	50% {
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 100%;
+		border-radius: 0;
+	}
+	100% {
+		top: 40px;
+		left: 40px;
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;
+	}
+}
+
+/*######## Mobile card  #########*/
+
+.profile-card-3 {
+	font-family: "Open Sans", Arial, sans-serif;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	height: 368px;
+	border: none;
+}
+.profile-card-3 .background-block {
+	float: left;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+.profile-card-3 .background-block .background {
+	width: 100%;
+	vertical-align: top;
+	opacity: 0.9;
+	-webkit-filter: blur(0.5px);
+	filter: blur(0.5px);
+	-webkit-transform: scale(1.8);
+	transform: scale(2.8);
+}
+.profile-card-3 .card-content {
+	width: 100%;
+	padding: 15px 25px;
+	color: #232323;
+	float: left;
+	background: #efefef;
+	height: 50%;
+	border-radius: 0 0 5px 5px;
+	position: relative;
+	z-index: 9999;
+}
+.profile-card-3 .card-content::before {
+	content: "";
+	background: #efefef;
+	width: 120%;
+	height: 100%;
+	left: 11px;
+	bottom: 51px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(-13deg);
+}
+.profile-card-3 .profiles {
+	border-radius: 50%;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	max-width: 100px;
+	opacity: 1;
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+	border: 2px solid rgba(255, 255, 255, 1);
+	-webkit-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	z-index: 99999;
+}
+.profile-card-3 h2 {
+	margin: 0 0 5px;
+	font-weight: 600;
+	font-size: 25px;
+}
+.profile-card-3 h2 small {
+	display: block;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.profile-card-3 i {
+	display: inline-block;
+	font-size: 16px;
+	color: #232323;
+	text-align: center;
+	border: 1px solid #232323;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+.profile-card-3 .icon-block {
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+}
+.profile-card-3 .icon-block a {
+	text-decoration: none;
+}
+.profile-card-3 i:hover {
+	background-color: #232323;
+	color: #fff;
+	text-decoration: none;
+}
+.contactMobile {
+	display: none !important;
+}
+/*######## Media Queries #########*/
+/*######## ######### #########*/
+@media (min-width: 1201px) {
+	h1 {
+		font-size: 60px !important;
+	}
+	.carre-competences {
+		justify-content: center;
+	}
+	.lowerinfos {
+		margin-top: 110px !important;
+		margin-bottom: 150px;
+	}
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+	h1 {
+		font-size: 50px !important;
+	}
+	.carre-competences {
+		justify-content: center;
+	}
+	.lowerinfos {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	h1 {
+		font-size: 40px !important;
+	}
+	.name {
+		margin-top: 30px;
+	}
+	.lowerinfos {
+		margin-top: 150px !important;
+		margin-bottom: 50px;
+	}
+	.carre-competences {
+		justify-content: center;
+	}
+	.name-contact {
+		font-size: 2rem;
+	}
+	.left-side h3 {
+		font-size: 1.2rem;
+	}
+	.left-side p {
+		font-size: 18px;
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+	.presentation {
+		margin-top: 1rem !important;
+	}
+	h1 {
+		font-size: 40px !important;
+	}
+	.name {
+		margin-top: 50px;
+	}
+	.lowerinfos {
+		margin-top: 60px !important;
+		margin-bottom: 50px;
+	}
+	.carre-competences {
+		justify-content: center;
+	}
+	.name-contact {
+		font-size: 1.2rem;
+	}
+	.left-side h3 {
+		font-size: 0.7rem;
+	}
+	.left-side p {
+		font-size: 16px;
+		margin-bottom: 0 !important;
+	}
+	.social-info {
+		font-size: 17px;
+	}
+	.contactMobile {
+		display: block !important;
+		margin-bottom: 20px;
+	}
+	.contactLarge {
+		display: none;
+	}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	header {
+		height: 100vh;
+	}
+	.profile {
+		width: 150px;
+	}
+	.presentation {
+		margin-top: 30px !important;
+	}
+	h1 {
+		font-size: 30px !important;
+	}
+	.name {
+		margin-top: 38px;
+	}
+	.typewrite,
+	.name h2 {
+		font-size: 19px !important;
+	}
+	.lowerinfos {
+		margin-top: 50px !important;
+		/* margin-bottom: 70px; */
+	}
+	.objectif {
+		font-size: 28px;
+	}
+	.lowerinfos h2 {
+		font-size: 20px;
+	}
+	.name-contact {
+		font-size: 1.5rem;
+	}
+	.left-side h3 {
+		font-size: 1rem;
+	}
+	.left-side p {
+		font-size: 16px;
+	}
+	.contactMobile {
+		display: block !important;
+		margin-bottom: 20px;
+	}
+	.contactLarge {
+		display: none;
+	}
+}
